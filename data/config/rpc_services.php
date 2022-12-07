@@ -4,7 +4,7 @@
  * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
- * @License GNU/GPL version 2 or any later version
+ * @license GNU/GPL version 3
  * @Createdate 12-02-2013 14:43
  */
 

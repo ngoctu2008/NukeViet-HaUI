@@ -3,7 +3,7 @@
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
  * @Language Tiếng Việt
- * @License GNU/GPL version 2 or any later version
+ * @license GNU/GPL version 3
  * @Createdate Sat, 08 Feb 2014 06:33:39 GMT
  */
 

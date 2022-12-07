@@ -1,7 +1,7 @@
 /**
  * @Project NUKEVIET 4.x
  * @Author Mr.Thang (kid.apt@gmail.com)
- * @License GNU/GPL version 2 or any later version
+ * @license GNU/GPL version 3
  * @Createdate 16-03-2015 12:55
  */
 
