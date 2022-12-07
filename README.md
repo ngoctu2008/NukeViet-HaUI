@@ -4,7 +4,7 @@ Giúp Số hóa hình thức quản lý sổ đầu bài cho trường học.
 ## Licensing
 NukeViet được phát hành dưới phiên bản GNU/GPL 3.0.
 
-Xem [LICENSE](LICENSE.md) để biết thông tin chi tiết.
+Xem [LICENSE](LICENSE) để biết thông tin chi tiết.
 
 ## Một số chức năng chính
 - Quản lý phân phối chương trình: Năm học, khối, môn, tiết, tên bài học. Nhập PPCT trừ file excel.
