@@ -15,7 +15,7 @@ if (!defined('NV_MAINFILE')) {
 
 if (!nv_function_exists('nv_tra_cuu')) {
     /**
-     * nv_module_menu()
+     * nv_tra_cuu()
      *
      * @return string
      */
@@ -33,7 +33,21 @@ if (!nv_function_exists('nv_tra_cuu')) {
 
 
         $xtpl = new XTemplate('global.tra_cuu.tpl', NV_ROOTDIR . '/themes/' . $block_theme . '/blocks');
+        $query = "select thu, ngay, tenmon , tiettheoct, tenbai, tenhsnghi, nhanxet
+from ppct join thu on ppct.mathu = thu.mathu
+join lopmonhoc on lopmonhoc.malopmh = ppct.malopmh 
+join monhoc on monhoc.mamon = lopmonhoc.mamon
+join lopquanly on lopquanly.malopql = lopmonhoc.malopql 
+where lopquanly.malopql = 4
+order by thu asc, tiet asc";
 
+        $result = $db->query($query);
+        while ($row = $result->fetch()) {
+            $Tiet = 'Tiet'.((string) $row['tiet']) . "_". ((string) $row['thu']);
+            $NoiDung = $row['tenmon'] . " - " . $row['tlop'];
+            $xtpl->assign($Tiet, $NoiDung);
+
+        }
 
 
         $xtpl->parse('main');

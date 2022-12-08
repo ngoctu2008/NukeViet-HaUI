@@ -133,52 +133,45 @@
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
+                    <div class="picxel_medium">{MonHoc_2_1}</div>
+                    <div class="picxel_medium">{TenHSNGhi_2_1}</div>
+                    <div class="picxel_medium">{TenBaiHoc_2_1}</div>
+                    <div class="picxel">{NhanXet_2_1}</div>
+                    <div class="picxel_small">{XepLoai_2_1}</div>
                 </div>
                 <div class="banghi text">
                     <div class="picxel_small">2</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
+                    <div class="picxel_medium">{MonHoc_2_2}</div>
+                    <div class="picxel_medium">{TenHSNghi_2_2}</div>
+                    <div class="picxel_medium">{TenBaiHoc_2_2}</div>
+                    <div class="picxel">{NhanXet_2_2}</div>
+                    <div class="picxel_small">{XepLoai_2_2}</div>
                 </div>
                 <div class="banghi text">
                     <div class="picxel_small">3</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
+                    <div class="picxel_medium">{MonHoc_2_2}</div>
+                    <div class="picxel_medium">{TenHSNghi_2_3}</div>
+                    <div class="picxel_medium">{TenBaiHoc_2_3}</div>
+                    <div class="picxel">{NhanXet_2_3}</div>
+                    <div class="picxel_small">{XepLoai_2_3}</div>
                 </div>
                 <div class="banghi text">
                     <div class="picxel_small">4</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
+                    <div class="picxel_medium">{MonHoc_2_2}</div>
+                    <div class="picxel_medium">{TenHSNghi_2_4}</div>
+                    <div class="picxel_medium">{TenBaiHoc_2_4}</div>
+                    <div class="picxel">{NhanXet_2_4}</div>
+                    <div class="picxel_small">{XepLoai_2_4}</div>
                 </div>
                 <div class="banghi text">
                     <div class="picxel_small">5</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
+                    <div class="picxel_medium">{MonHoc_2_2}</div>
+                    <div class="picxel_medium">{TenHSNghi_2_5}</div>
+                    <div class="picxel_medium">{TenBaiHoc_2_5}</div>
+                    <div class="picxel">{NhanXet_2_5}</div>
+                    <div class="picxel_small">{XepLoai_2_5}</div>
                 </div>
-                <div class="banghi text">
-                    <div class="picxel_small">6</div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel_medium"></div>
-                    <div class="picxel"></div>
-                    <div class="picxel_small"></div>
-                </div>
+
                 <div class="banghi text">
                     <div class="picxel_small">7</div>
                     <div class="picxel_medium"></div>

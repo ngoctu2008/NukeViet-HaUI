@@ -35,3 +35,24 @@ Stack trace:
 #4 /opt/lampp/htdocs/NukeViet-HaUI/index.php(364): require('/opt/lampp/htdo...')
 #5 {main}
   thrown] [FILE: /themes/HaUIMiuXinhhh/blocks/global.TKB.php] [LINE: 47]
+[Thu, 08 Dec 2022 13:45:30 +0700] [localhost] [::1] [Notice(8): Undefined index: tiet] [FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php] [LINE: 45] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/HaUIMiuXinhhh/theme.php
+#4  LINE: 176   FILE: /includes/core/user_functions.php
+#5  LINE: 59    FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php
+
+[Thu, 08 Dec 2022 13:45:30 +0700] [localhost] [::1] [Notice(8): Undefined index: tlop] [FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php] [LINE: 46] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/HaUIMiuXinhhh/theme.php
+#4  LINE: 176   FILE: /includes/core/user_functions.php
+#5  LINE: 59    FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php
+
+[Thu, 08 Dec 2022 14:07:58 +0700] [localhost] [::1] [Notice(8): Undefined index: tlop] [FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php] [LINE: 47] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/HaUIMiuXinhhh/theme.php
+#4  LINE: 176   FILE: /includes/core/user_functions.php
+#5  LINE: 60    FILE: /themes/HaUIMiuXinhhh/blocks/global.tra_cuu.php
+
