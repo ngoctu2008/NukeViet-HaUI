@@ -29,15 +29,7 @@
     }
 </style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ThoiKhoaBieu.css">
-    <title>Document</title>
-</head>
+
 <body>
 <div class="tiet_hoc">
     <div class="table">
@@ -53,111 +45,76 @@
         </div>
         <div class="all_tiet_mot">
             <div class="mot_tiet text_lag">Tiết 1</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Lý - Lớp 9A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
+            <div class="mot_tiet text"><button>{Tiet1_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_8}</button></div>
         </div>
         <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 2</div>
-            <div class="mot_tiet text">Toán - Lớp 8A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet2_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_8}</button></div>
+        </div>        <div class="all_tiet_mot">
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet2_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet2_8}</button></div>
+        </div>        <div class="all_tiet_mot">
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet3_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet3_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet3_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_8}</button></div>
+        </div>        <div class="all_tiet_mot">
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet1_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_8}</button></div>
+        </div>        <div class="all_tiet_mot">
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet1_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_8}</button></div>
+        </div>        <div class="all_tiet_mot">
+            <div class="mot_tiet text_lag">Tiết 1</div>
+            <div class="mot_tiet text"><button>{Tiet1_2}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_3}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_4}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_5}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_6}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_7}</button></div>
+            <div class="mot_tiet text"><button>{Tiet1_8}</button></div>
         </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 3</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán - Lớp 9A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 4</div>
-            <div class="mot_tiet text">Toán - Lớp 8A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 5</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán - 7C</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 6</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán - 8A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 7</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán - 9C</div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 8</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán -9A</div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 9</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text">Toán - 9D</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-        <div class="all_tiet_mot">
-            <div class="mot_tiet text_lag">Tiết 10</div>
-            <div class="mot_tiet text">Toán-8A</div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-            <div class="mot_tiet text"></div>
-        </div>
-    </div>
-    <div class="Nhan_xet text">
+
+        <div class="Nhan_xet text">
         Nhận xét
     </div>
 </div>
 </body>
-</html>
+
 
 
 
