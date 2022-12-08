@@ -89,7 +89,7 @@ if (!nv_function_exists('nv_facebook_comment_box_blocks')) {
         $content = '';
         if (!defined('FACEBOOK_JSSDK')) {
             $lang = (NV_LANG_DATA == 'vi') ? 'vi_VN' : 'en_US';
-            $facebookappid = (isset($module_config[$module_name]['facebookappid'])) ? $module_config[$module_name]['facebookappid'] : $block_config['facebookappid'];
+            $facebookappid = (isset($module_config[$module/opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/blocks_name]['facebookappid'])) ? $module_config[$module_name]['facebookappid'] : $block_config['facebookappid'];
 
             $content .= '<div id="fb-root"></div>
 			<script type="text/javascript">

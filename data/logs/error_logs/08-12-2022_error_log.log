@@ -1,0 +1,28 @@
+[Thu, 08 Dec 2022 08:53:28 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function nv_TKB() in /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/blocks/global.TKB.php:48
+Stack trace:
+#0 /opt/lampp/htdocs/NukeViet-HaUI/includes/core/user_functions.php(176): include()
+#1 /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/theme.php(378): nv_blocks_content('<!DOCTYPE html>...')
+#2 /opt/lampp/htdocs/NukeViet-HaUI/modules/news/funcs/main.php(362): nv_site_theme('<div class="new...')
+#3 /opt/lampp/htdocs/NukeViet-HaUI/index.php(364): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown] [FILE: /themes/HaUIMiuXinhhh/blocks/global.TKB.php] [LINE: 48]
+[Thu, 08 Dec 2022 09:18:59 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function nv_tkb() in /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/blocks/global.TKB.php:43
+Stack trace:
+#0 /opt/lampp/htdocs/NukeViet-HaUI/includes/core/user_functions.php(176): include()
+#1 /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/theme.php(378): nv_blocks_content('<!DOCTYPE html>...')
+#2 /opt/lampp/htdocs/NukeViet-HaUI/modules/news/funcs/main.php(362): nv_site_theme('<div class="new...')
+#3 /opt/lampp/htdocs/NukeViet-HaUI/index.php(364): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown] [FILE: /themes/HaUIMiuXinhhh/blocks/global.TKB.php] [LINE: 43]
+[Thu, 08 Dec 2022 09:21:51 +0700] [localhost] [::1] [Warning(2): file_get_contents(/opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/config.ini): failed to open stream: No such file or directory] [FILE: /modules/news/global.functions.php] [LINE: 272] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 189   FILE: /modules/news/funcs/main.php
+#3  LINE: 444   FILE: /modules/news/theme.php
+#4  LINE: 272   FILE: /modules/news/global.functions.php
+
+[Thu, 08 Dec 2022 09:21:51 +0700] [localhost] [::1] [Warning(2): file_get_contents(/opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/config.ini): failed to open stream: No such file or directory] [FILE: /modules/news/global.functions.php] [LINE: 298] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 189   FILE: /modules/news/funcs/main.php
+#3  LINE: 457   FILE: /modules/news/theme.php
+#4  LINE: 298   FILE: /modules/news/global.functions.php
+
