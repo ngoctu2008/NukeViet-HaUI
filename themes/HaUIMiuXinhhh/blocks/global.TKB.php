@@ -34,18 +34,18 @@ if (!nv_function_exists('nv_tkb')) {
 
         $xtpl = new XTemplate('global.TKB.tpl', NV_ROOTDIR . '/themes/' . $block_theme . '/blocks');
 
-        $sql = "select tiet, thu, tenmon, tengv 
+        $sql = "select tiet, thu, tenmon, concat(lopquanly.lop, tenlop) as 'tlop'
 from ppct join thu on ppct.mathu = thu.mathu
 join lopmonhoc on lopmonhoc.malopmh = ppct.malopmh 
-join monhoc on monhoc.mamon = lopmonhoc.mamon 
-join giaovien on giaovien.magv = ppct.magv 
-where giaovien.magv = 1
-order by thu asc, tiet asc 
+join monhoc on monhoc.mamon = lopmonhoc.mamon
+join lopquanly on lopquanly.malopql = lopmonhoc.malopql 
+where ppct.magv = 1
+order by thu asc, tiet asc
 ";
         $result = $db->query($sql);
         while ($row = $result->fetch()) {
             $Tiet = 'Tiet'.((string) $row['tiet']) . "_". ((string) $row['thu']);
-            $NoiDung = $row['tenmon'] . " - " . $row['tengv'];
+            $NoiDung = $row['tenmon'] . " - " . $row['tlop'];
             $xtpl->assign($Tiet, $NoiDung);
 
         }

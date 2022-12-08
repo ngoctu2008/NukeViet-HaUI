@@ -28,7 +28,6 @@
     .text_lag {
         color: black;
         font-size: 16px;
-        font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,7 +119,7 @@
         </div>
     </div>
     <div class="table">
-        <div class="hang text_lag">
+        <div class="hang text">
             <div class="picxel_small">Thứ</div>
             <div class="picxel_small">Tiết</div>
             <div class="picxel_medium">Môn Học</div>
@@ -130,7 +129,7 @@
             <div class="picxel_small">Xếp Loại</div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 2</div>
+            <div class="thu text">Thứ 2</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
@@ -216,7 +215,7 @@
             </div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 3</div>
+            <div class="thu text">Thứ 3</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
@@ -302,7 +301,7 @@
             </div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 4</div>
+            <div class="thu text">Thứ 4</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
@@ -388,7 +387,7 @@
             </div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 5</div>
+            <div class="thu text">Thứ 5</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
@@ -474,7 +473,7 @@
             </div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 6</div>
+            <div class="thu text">Thứ 6</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
@@ -560,7 +559,7 @@
             </div>
         </div>
         <div class="cum_hang">
-            <div class="thu text_lag">Thứ 7</div>
+            <div class="thu text">Thứ 7</div>
             <div class="tiet_trong_ngay">
                 <div class="banghi text">
                     <div class="picxel_small">1</div>
