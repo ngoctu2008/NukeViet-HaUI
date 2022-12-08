@@ -26,3 +26,12 @@ Stack trace:
 #3  LINE: 457   FILE: /modules/news/theme.php
 #4  LINE: 298   FILE: /modules/news/global.functions.php
 
+[Thu, 08 Dec 2022 12:46:24 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\NukeVietPDOStatement::fetch_assoc() in /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/blocks/global.TKB.php:47
+Stack trace:
+#0 /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/blocks/global.TKB.php(64): nv_tkb()
+#1 /opt/lampp/htdocs/NukeViet-HaUI/includes/core/user_functions.php(176): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/NukeViet-HaUI/themes/HaUIMiuXinhhh/theme.php(378): nv_blocks_content('<!DOCTYPE html>...')
+#3 /opt/lampp/htdocs/NukeViet-HaUI/modules/news/funcs/main.php(362): nv_site_theme('\n\n')
+#4 /opt/lampp/htdocs/NukeViet-HaUI/index.php(364): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown] [FILE: /themes/HaUIMiuXinhhh/blocks/global.TKB.php] [LINE: 47]

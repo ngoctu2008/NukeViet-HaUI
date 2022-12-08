@@ -31,8 +31,30 @@ if (!nv_function_exists('nv_tkb')) {
             $block_theme = 'default';
         }
 
+
         $xtpl = new XTemplate('global.TKB.tpl', NV_ROOTDIR . '/themes/' . $block_theme . '/blocks');
 
+        $sql = "select tiet, thu, tenmon, tengv 
+from ppct join thu on ppct.mathu = thu.mathu
+join lopmonhoc on lopmonhoc.malopmh = ppct.malopmh 
+join monhoc on monhoc.mamon = lopmonhoc.mamon 
+join giaovien on giaovien.magv = ppct.magv 
+where giaovien.magv = 1
+order by thu asc, tiet asc 
+";
+        $result = $db->query($sql);
+        while ($row = $result->fetch()) {
+            $Tiet = 'Tiet'.((string) $row['tiet']) . "_". ((string) $row['thu']);
+            $NoiDung = $row['tenmon'] . " - " . $row['tengv'];
+            $xtpl->assign($Tiet, $NoiDung);
+
+        }
+
+/*        for ($tiet = 1; $tiet<=10; $tiet++) {
+            $i = "Tiet".((string)$tiet)."_2";
+            $xtpl->assign($i, "Tai");
+        }
+*/
         $xtpl->parse('main');
 
         return $xtpl->text('main');
